@@ -204,22 +204,6 @@ void
 }
 
 /**
- * graphene_simd4f_get:
- * @s: a #graphene_simd4f_t
- * @i: the index of the component to retrieve
- *
- * Retrieves the given component of a #graphene_simd4f_t.
- *
- * Since: 1.2
- */
-float
-(graphene_simd4f_get) (const graphene_simd4f_t s,
-                       unsigned int            i)
-{
-  return graphene_simd4f_get (s, i);
-}
-
-/**
  * graphene_simd4f_get_x:
  * @s: a #graphene_simd4f_t
  *
